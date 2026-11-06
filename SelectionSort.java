@@ -7,9 +7,9 @@ public class SelectionSort {
     private static int[] valores;
     private static ArrayPanel painel;
 
-    public static void ordenar(int[] vetor, ArrayPanel painel) {
+    public static void ordenar(int[] vetor, ArrayPanel painelTela) {
         valores = vetor;
-        SelectionSort.painel = painel;
+        painel = painelTela;
         i = 0;
         j = 1;
         menor = 0;
